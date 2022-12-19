@@ -133,11 +133,43 @@
                 </div>
                 </div>
             </th>
-        
+
 
     </table>
 
+    <br> <br> <br>
+    <div class="slideshow-container">
 
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img class="caru" src="https://storage.googleapis.com/happytech-public/products/product-1544-1.0-m.png" style="width:100%">
+          <div class="text">Tropicana</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img class="caru" src="https://storage.googleapis.com/happytech-public/products/product-1555-1.0-m.png" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img class="caru" src="https://storage.googleapis.com/happytech-public/products/product-989-1.0-m.png" style="width:100%">
+          <div class="text">Black Forest</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        <br> <br> <br>
     <section class="footer">
 
         <div class="box-container">
@@ -169,16 +201,12 @@
         <div class="credit"> HAPPY CAKE</div>
     
     </section>
+
+    
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
-    <script> 
-        $(document).ready(function(){
-          $("#flip").click(function(){
-            $("#panel").slideDown("slow");
-          });
-        });
-        </script>
+  <script src="carousel.js"></script>
 
 
 </body>
