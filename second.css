@@ -1,19 +1,19 @@
 body{
-    background-color: black;
-    
+   background: black;
 }
 :root{
-    --main-color:black;
+   --main-color:black;
 }
 *{
-    font-family: 'Lato', sans-serif;
-    margin:0; padding:0;
-    box-sizing: border-box;
-    outline: none; border:none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: .2s linear;
+   font-family: 'Lato', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   text-transform: capitalize;
+   transition: .2s linear;
 }
+
 .main-menu{ 
     list-style: none; 
     margin: 0; 
@@ -74,34 +74,101 @@ body{
     margin-left: 100px;
     margin-top: 50px;
     /* border-radius: 10%; */
+     
+   
+  
  }
  .suret{
  
     margin-top: 30px;
     width: 450px;
     height: 450px;
-    border-radius: 15px;
+  
  }
  .ones{
     font-size: 30px;
-    color: #ff4e50;
+    color: #504848;
+    margin-top: 30px;
  }
  .two{
     font-size: 20px;
-    color: #ff4e50;
+    color: #504848;
  }
  .third{
-    color:  #ff4e50;
+    color:  #504848;
     font-family: 'Lato', sans-serif;
     text-align: center;
     font-size: 40px;
+    margin-top: 80px;
  }
  .fourth{
-    background-color: white;
+    background-color: black;
     width: 300px;
     margin-left: 820px;
   
  }
+
+
+
+
+ /* animation nadpis */
+ @keyframes lights {
+  0% {
+    color: hsl(230, 40%, 80%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 100%, 60%, 0.3),
+      -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+  
+  30% { 
+    color: hsl(230, 80%, 90%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+      0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  40% { 
+    color: hsl(230, 100%, 95%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 90%, 0.5),
+      -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+      0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  70% {
+    color: hsl(230, 80%, 90%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.5),
+      0 0 0.125em hsla(320, 100%, 60%, 0.5),
+      0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+      -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+  }
+  
+  100% {
+    color: hsl(230, 40%, 80%);
+    text-shadow:
+      0 0 1em hsla(320, 100%, 50%, 0.2),
+      0 0 0.125em hsla(320, 100%, 60%, 0.3),
+      1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+      -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+  }
+  
+}
+ 
+
+ 
+ h2 {
+   margin: auto;
+   font-size: 3.5rem;
+   font-weight: 300;
+   animation: lights 5s 750ms linear infinite;
+ }
+ 
  #panel, #flip {
    padding: 5px;
    text-align: center;
@@ -166,4 +233,3 @@ body{
 .footer .credit span{
    color:var(--main-color);
 }
-
