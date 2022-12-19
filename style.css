@@ -120,58 +120,8 @@ body{
      cursor: pointer;
      display: none;
  }
- .sidenav {
-     height: 100%; /* Full-height: remove this if you want "auto" height */
-     width: 160px; /* Set the width of the sidebar */
-     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-     z-index: 1; /* Stay on top */
-     top: 300px; /* Stay at the top */
-     right:  0;
-     background-color: none; /* Black */
-     overflow-x: hidden; /* Disable horizontal scroll */
-     padding-top: 20px;
-     }
-     #mySidenav a {
-     position: absolute; /* Position them relative to the browser window */
-     right:  -80px; /* Position them outside of the screen */
-     transition: 0.3s; /* Add transition on hover */
-     padding: 15px; /* 15px padding */
-     width: 120px; /* Set a specific width */
-     text-decoration: none; /* Remove underline */
-     font-size: 20px; /* Increase font size */
-     color: white; /* White text color */
-     border-radius: 5px 0px 0px 5px; /* Rounded corners on the top right and bottom right side */
-     }
      
-     #mySidenav a:hover {
-     right: 0; /* On mouse-over, make the elements appear as they should */
-     }
- 
- 
- /* The about link: 20px from the top with a green background */
- #about {
-     top: 20px;
-     background-color: black;
-     }
-     
-     #blog {
-     top: 80px;
-     background-color: black; 
-     }
-     
-     #projects {
-     top: 140px;
-     background-color: black; 
-     }
-     
-     #contact {
-     top: 200px;
-     background-color: black;
-     }
-     
-     
-     
- .home .content{
+     .home .content{
      text-align: center;
      padding-top: 6rem;
      margin:2rem auto;
