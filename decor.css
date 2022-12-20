@@ -72,9 +72,6 @@ body{
 section{
 	padding:2rem 9%;
 }
-
-
-
 .container {
 	background-color: black;
 	min-height: calc(100vh - 50px);
@@ -117,11 +114,6 @@ section{
 .list-item:hover .list-item-button {
 	opacity: 1;
 	transition: all 1s ease;
-}
-.list-item-button:hover {
-	background-color: #ddf417;
-	color: #151515;
-	font-weight: 900;
 }
 .list-item-img{
 	border-radius: 5px;
