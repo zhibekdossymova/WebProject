@@ -196,17 +196,17 @@
 
     <h1 class="heading"> <span>to</span> order </h1>
 
-    <form action="">
+    <form action="connect.php" method = "POST">
         <div class="inputBox">
-            <input type="text" placeholder="name">
-            <input type="email" placeholder="email">
+            <input type="text" id="name" placeholder="name" name = "name">
+            <input type="email" placeholder="email" id="email" name = "email">
         </div>
         <div class="inputBox">
-            <input type="number" placeholder="phone number">
-            <input type="text" placeholder="type of cake">
+            <input type="number" placeholder="phone number" id="phoneNumber" name = "phoneNumber">
+            <input type="text" id="type" placeholder="type" name = "type">
         </div>
-        <textarea name="" placeholder="your message" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="send message" class="btn">
+        <textarea name="message" id="message" placeholder="message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn" name = "message">
     </form>
 
 </section>
