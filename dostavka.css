@@ -219,3 +219,11 @@ img {vertical-align: middle;}
     color:var(--main-color);
  }
 
+ @media (max-width: 768px) {
+   .box-container{
+      display: inline-block;
+   }
+}
+
+ 
+
