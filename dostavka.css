@@ -66,9 +66,18 @@ body{
      display: none;
  }
 .head{
+<<<<<<< Updated upstream
    margin-top: -100px;
    color: white;
    margin-left: 180px;   
+=======
+  margin-top: -200px;
+}
+.basy{
+    background-color: rgb(107, 100, 100);
+    margin-bottom: 100px;
+    text-align: center;
+>>>>>>> Stashed changes
 }
 .basy{
    width: 100%;
@@ -77,6 +86,7 @@ body{
 }
 .bir{
     background-color: white;
+<<<<<<< Updated upstream
     margin-left: 150px;
     text-align: start;    
 }
@@ -169,6 +179,12 @@ img {vertical-align: middle;}
 
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+=======
+    margin-left: 80px;
+    text-align: start;
+  
+    
+>>>>>>> Stashed changes
 }
 
   footer{
