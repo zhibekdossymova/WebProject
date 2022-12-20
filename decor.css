@@ -67,7 +67,24 @@ body{
      cursor:pointer;
      display: none;
  }
- 
+ html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-padding-top: 7rem;
+	scroll-behavior: smooth;
+  }
+  html::-webkit-scrollbar{
+	width:1rem;
+  }
+  
+  html::-webkit-scrollbar-track{
+	background: white;
+  }
+  
+  html::-webkit-scrollbar-thumb{
+	background: var(--main-color);
+	border-radius: 5rem;
+  }
 
 section{
 	padding:2rem 9%;
